@@ -1,20 +1,11 @@
 <template>
-  <div id="app">
-    
-    <h1>Hello world! {{ msg }}</h1>
-
-  </div>
+  <app-servers></app-servers>
 </template>
 
 <script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+  export default {
+    
   }
-}
 </script>
 
 <style>
